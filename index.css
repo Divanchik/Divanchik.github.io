@@ -2,7 +2,7 @@
     max-height: 500px;
 }
 
-#socials {
+#links {
     display: flex;
     flex-direction: row;
     justify-content: center;
