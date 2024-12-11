@@ -36,10 +36,10 @@ section{
 }
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-  --pico-primary: black;
+  --pico-primary: #1DA489;
 }
 
 [data-theme="dark"],
 :root:not([data-theme="light"]) {
-  --pico-primary: white;
+  --pico-primary: #03CEA4;
 }
