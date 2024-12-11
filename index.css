@@ -13,30 +13,18 @@ a {
     text-decoration: none;
 }
 /* twitch */
-i.bi-twitch {
-    color: white;
-}
 i.bi-twitch:hover {
     color: #6441a5;
 }
 /* youtube */
-i.bi-youtube {
-    color: white;
-}
 i.bi-youtube:hover {
     color: #ff0000;
 }
 /* telegram */
-i.bi-telegram {
-    color: white;
-}
 i.bi-telegram:hover {
     color: #0088cc;
 }
 /* discord */
-i.bi-discord {
-    color: white;
-}
 i.bi-discord:hover {
     color: #5865F2;
 }
@@ -45,4 +33,13 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --pico-primary: black;
+}
+
+[data-theme="dark"],
+:root:not([data-theme="light"]) {
+  --pico-primary: white;
 }
