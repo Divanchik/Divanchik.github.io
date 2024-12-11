@@ -1,7 +1,48 @@
-#top-part {
+#avatar {
+    max-height: 500px;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+/* twitch */
+i.bi-twitch {
+    color: white;
+}
+i.bi-twitch:hover {
+    color: #6441a5;
+}
+/* youtube */
+i.bi-youtube {
+    color: white;
+}
+i.bi-youtube:hover {
+    color: #ff0000;
+}
+/* telegram */
+i.bi-telegram {
+    color: white;
+}
+i.bi-telegram:hover {
+    color: #0088cc;
+}
+/* discord */
+i.bi-discord {
+    color: white;
+}
+i.bi-discord:hover {
+    color: #5865F2;
+}
+
+section{
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    margin-top: 1em;
+    align-items: center;
 }
