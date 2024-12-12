@@ -36,16 +36,21 @@ section{
 }
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-  --pico-primary: #1DA489;
+  --pico-primary: #058686;
 }
 
 [data-theme="dark"],
 :root:not([data-theme="light"]) {
-  --pico-primary: #03CEA4;
+  --pico-primary: #0AC2C2;
 }
 
 @media (prefers-color-scheme: light) {
     #stellaris-logo {
         filter: invert(100%);
     }
+}
+hgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
