@@ -43,3 +43,9 @@ section{
 :root:not([data-theme="light"]) {
   --pico-primary: #03CEA4;
 }
+
+@media (prefers-color-scheme: light) {
+    #stellaris-logo {
+        filter: invert(100%);
+    }
+}
