@@ -1,0 +1,27 @@
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --pico-primary: #058686;
+  --pico-primary-hover: #0AC2C2;
+}
+
+[data-theme="dark"],
+:root:not([data-theme="light"]) {
+  --pico-primary: #0AC2C2;
+  --pico-primary-hover: #58faf9;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
