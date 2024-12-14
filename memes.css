@@ -1,0 +1,27 @@
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --pico-primary: #058686;
+  --pico-primary-hover: #0AC2C2;
+}
+
+[data-theme="dark"],
+:root:not([data-theme="light"]) {
+  --pico-primary: #0AC2C2;
+  --pico-primary-hover: #58faf9;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+main > img {
+    max-height: 400px;
+    border: 1px solid var(--pico-color-azure-500);
+}
