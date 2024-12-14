@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-header {
+body > header {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -40,4 +40,21 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    gap: .5rem;
+}
+
+.gamecards {
+    max-height: 1000px;
+    overflow-y: scroll;
+    /* padding: 1rem; */
+}
+
+article > header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.game-rating > i {
+    color: gold;
 }
